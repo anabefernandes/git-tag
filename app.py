@@ -1,3 +1,4 @@
+print("Olá mundo")
 print("Versionamento de Releases em Python usando Git Tag")
 print("O que é Git Tag?")
 print("Marca um commit especifico, usado para releases, tipos: Lightweight e Annotated")
