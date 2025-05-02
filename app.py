@@ -8,3 +8,8 @@ print("Quando mudar cada numero:")
 print("MAJOR: Mudanças incompativeis")
 print("MINOR: Novas funções compatíveis")
 print("PATCH: Correções de bugs")
+
+def saudacao(nome):
+    print(f"olá, {nome}")
+
+saudacao("ana")
