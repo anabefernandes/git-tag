@@ -9,7 +9,10 @@ print("MAJOR: Mudanças incompativeis")
 print("MINOR: Novas funções compatíveis")
 print("PATCH: Correções de bugs")
 
-def saudacao(nome):
-    print(f"olá, {nome}")
+def saudacao(nome, idioma="pt"):
+    if idioma == "pt":
+        print(f"Olá, {nome}!")
+    elif idioma == "en":
+        print(f"Hello, {nome}!")
 
-saudacao("ana")
+saudacao("Ana", "en")
