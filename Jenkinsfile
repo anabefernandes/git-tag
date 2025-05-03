@@ -12,7 +12,7 @@ pipeline {
                     if (env.GIT_TAG != "no_tag") {
                         echo "Este commit foi disparado por uma tag: ${env.GIT_TAG}"
                     } else {
-                        echo "Este commit não é uma tag. Nenhuma ação especial será executada."
+                        echo "Este commit não é uma tag! Nenhuma ação especial será executada."
                     }
                 }
             }
@@ -24,7 +24,6 @@ pipeline {
             }
             steps {
                 echo "Executando build de release para versão ${env.GIT_TAG}"
-                // Adicione aqui comandos específicos para build de release
             }
         }
     }
